@@ -1,0 +1,400 @@
+/**/
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.jumbotron {
+    background: #024959;
+    border-color: #204d74;
+    color: white;
+    padding: 0px 0;
+    margin: 0px 0;
+    margin-bottom: 4px;
+}
+
+.letra {
+    font-size: 30px;
+}
+
+option {
+    text-align: center;
+}
+
+.buscar {
+    text-align: left;
+}
+
+.modal-body {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.container-fluid {
+    margin-right: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+input {
+    text-align: center;
+}
+
+select {
+    text-align: center;
+}
+
+#divTablaEquipos {
+    width: 98.52%;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+table {
+    text-align: center;
+    overflow: scroll;
+    width: 100%;
+}
+
+table th {
+    text-align: center;
+}
+
+#tablaEquipos td {
+    vertical-align: middle;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #e8e8e8;
+}
+
+body {
+    width: 100%;
+}
+
+.ir-arriba {
+    display: none;
+    padding: 6px;
+    background: #024959;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.addon-especial {
+    background: white;
+    border-right: none;
+    font-size: 20;
+}
+
+#dialogbox>div {
+    background: #FFF;
+    margin: 8px;
+}
+
+#dialogbox>div>#dialogboxhead {
+    background: #666;
+    font-size: 19px;
+    padding: 10px;
+    color: #CCC;
+}
+
+#dialogbox>div>#dialogboxbody {
+    background: #333;
+    padding: 20px;
+    color: #FFF;
+}
+
+#dialogbox>div>#dialogboxfoot {
+    background: #666;
+    padding: 10px;
+    text-align: right;
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.dgcAlert {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 1000px;
+    background: url(http://www.dgcmedia.es/recursosExternos/fondoAlert.png) repeat;
+    text-align: center;
+    opacity: 0;
+    display: none;
+    z-index: 999999999999999;
+}
+
+.dgcAlert .dgcVentana {
+    width: 500px;
+    background: white;
+    min-height: 150px;
+    position: relative;
+    margin: 0 auto;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dgcAlert .dgcVentana .dgcCerrar {
+    height: 25px;
+    width: 25px;
+    float: right;
+    cursor: pointer;
+    background: url(http://www.dgcmedia.es/recursosExternos/cerrarAlert.jpg) no-repeat center center;
+}
+
+.dgcAlert .dgcVentana .dgcMensaje {
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.dgcAlert .dgcVentana .dgcAceptar {
+    background: #09C;
+    bottom: 20px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75px;
+    cursor: pointer;
+    color: #FFF;
+    margin-top: 50px;
+}
+
+a {
+    font-size: 16px;
+}
+
+.requerido {
+    color: red;
+}
+
+.anulada {
+    background='img/anulada4.png';
+}
+
+.team-leader-box {
+    max-width: 307px;
+    width: auto;
+    float: none;
+    margin: 0 auto;
+}
+
+.team-leader-box:nth-of-type(3n) {
+    margin: 0 auto
+}
+
+.main-section.team {
+    padding: 60px 0 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/**********************************************************************************************************/
+
+
+/* Team
+---------------------------------*/
+
+.team-leader-block {
+    margin: 0 auto;
+}
+
+.team-leader-box {
+    margin-right: 3.82979%;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+.team-leader-box span {
+    margin-bottom: 24px;
+    display: block;
+}
+
+.team-leader-box:nth-of-type(3n+0) {
+    margin: 0;
+}
+
+.team-leader {
+    width: auto;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 7px rgba(241, 241, 241, 0.80);
+    margin: 7px 7px 25px 7px;
+}
+
+.team-leader-shadow {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.team-leader-shadow a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.team-leader:hover .team-leader-shadow {
+    box-shadow: inset 0px 0px 0px 148px rgba(17, 17, 17, 0.80);
+}
+
+.team-leader:hover ul {
+    display: block;
+    opacity: 1
+}
+
+.team-leader img {
+    display: block;
+    border-radius: 50%;
+}
+
+.team-leader ul {
+    display: block;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin-top: -14px;
+    z-index: 15;
+    transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+}
+
+.team-leader ul li {
+    display: inline;
+    margin: 0 11px;
+}
+
+.team-leader ul li a {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.team-leader ul li a:hover, .team-leader ul li a:focus {
+    text-decoration: none;
+}
+
+.team-leader ul li a.fa-twitter:hover {
+    color: #55acee;
+}
+
+.team-leader ul li a.icon-facebook:hover {
+    color: #3b5998;
+}
+
+.team-leader ul li a.fa-pinterest:hover {
+    color: #cb2026;
+}
+
+.team-leader ul li a.fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter-square:before {
+    content: "\f081";
+}
+
+.icon-facebook-square:before {
+    content: "\f082";
+}
+
+.icon-facebook-square:before {
+    content: "\f082";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+h6 {
+    font-size: 16px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.main-section.team h6 {
+    margin-bottom: 40px;
+}
+
+.business-talking h3 {
+    font-weight: 700;
+    padding: 0;
+    margin: 20px 0 70px;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.featured-work h3 {
+    text-align: left;
+}
+
+
+/*248BCA*/
